@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Preload
+  m_Shaders:
+    data:
+      first: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 4800000, guid: 11c3ef15b99017a42843980ca9ed079c, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT FOG_LINEAR SHADOWS_SCREEN
+            _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR _ALPHA_PREMULTIPLY
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+            _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_SEPCULAR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+            _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR
+            SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR
+            SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+            _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR _ALPHA_PREMULTIPLY
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT ENABLE_SEPCULAR
+            FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT ENABLE_SEPCULAR
+            FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_MAIN_COLOR ENABLE_REFLECTION
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_MASK_CONTROL ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN _ALPHA_TEST
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_RIM_LIGHT ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_SEPCULAR
+            FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR
+            FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR
+            FOG_LINEAR _ALPHA_PREMULTIPLY
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION
+            ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION
+            ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_REFLECTION
+            ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR
+            SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_FLOW_MUL ENABLE_SEPCULAR FOG_LINEAR
+            SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_REFLECTION ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_REFLECTION ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_FLOW_MUL ENABLE_RIM_LIGHT
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_FLOW_MUL ENABLE_REFLECTION
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_FLOW_MUL ENABLE_REFLECTION
+            ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_EMISSION ENABLE_FLOW_MUL
+            ENABLE_REFLECTION ENABLE_RIM_LIGHT ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION_ALPHA_CONTROL ENABLE_SEPCULAR FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION_ALPHA_CONTROL ENABLE_MASK_CONTROL
+            ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR _ALPHA_PREMULTIPLY
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_FLOW_SMOOTH ENABLE_SEPCULAR
+            FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_EMISSION ENABLE_FLOW_MUL ENABLE_FLOW_SMOOTH
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_FLOW_SMOOTH ENABLE_MASK_CONTROL
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_FLOW_MUL ENABLE_FLOW_SMOOTH ENABLE_REFLECTION
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ALPHA_IS_METALLIC DIRECTIONAL ENABLE_FLOW_MUL ENABLE_FLOW_SMOOTH
+            ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ENABLE_MAIN_COLOR SHADOWS_DEPTH
+          passType: 8
+        - keywords: ENABLE_MAIN_COLOR SHADOWS_DEPTH _ALPHA_BLEND
+          passType: 8
+        - keywords: ENABLE_MAIN_COLOR SHADOWS_DEPTH _ALPHA_TEST
+          passType: 8
+        - keywords: ENABLE_MAIN_COLOR SHADOWS_DEPTH _ALPHA_PREMULTIPLY
+          passType: 8
+    data:
+      first: {fileID: 4800000, guid: 50d6745edcfa56a4caa66a779d022fca, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+    data:
+      first: {fileID: 4800000, guid: 851f598d52d7ad746813b56f4d6a8326, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+    data:
+      first: {fileID: 4800000, guid: 9b8db8d333fcb364b8525f8f1c69a029, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL ENABLE_HEIGHT ENABLE_NORMAL ENABLE_REFRACTION ENABLE_WAVE_ANIMATION
+            FOG_LINEAR
+          passType: 4
+    data:
+      first: {fileID: 4800000, guid: ed9c8bbaddb5aee47b0761f97a1f98ad, type: 3}
+      second:
+        variants:
+        - keywords: DIRECTIONAL FOG_LINEAR
+          passType: 4
+        - keywords: DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL ENABLE_REFLECTION ENABLE_SEPCULAR FOG_LINEAR SHADOWS_SCREEN
+          passType: 4
+        - keywords: ENABLE_MAIN_COLOR SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 4800000, guid: f567984618c272441862b9428414c231, type: 3}
+      second:
+        variants:
+        - keywords: FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_BLEND _CHANNEL_R
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_TEST _CHANNEL_R
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_BLEND _CHANNEL_G
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_BLEND _CHANNEL_B
+          passType: 4
+        - keywords: FOG_LINEAR _ALPHA_BLEND _CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND _CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND _CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND _CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND _CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_DISSLOVE ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DISSLOVE ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND _CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_UV_NOISE FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_UV_NOISE FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _CHANNEL_G _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _DECAL_CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_TEST
+            _DECAL_CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _DECAL_CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _DECAL_CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_DISSLOVE ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DISSLOVE ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND _CHANNEL_A _DECAL_CHANNEL_A
+          passType: 4
+        - keywords: ENABLE_GLOW FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_GLOW ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_GLOW ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_GLOW ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_RIM FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_RIM ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_GLOW ENABLE_RIM ENABLE_TINT_COLOR FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_GLOW ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_RIM_LIGHT FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_GLOW ENABLE_RIM_LIGHT ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_RIM ENABLE_RIM_LIGHT ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DISSLOVE ENABLE_RIM ENABLE_RIM_LIGHT ENABLE_TINT_COLOR
+            ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_DISSLOVE ENABLE_RIM ENABLE_RIM_LIGHT ENABLE_TINT_COLOR
+            ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_TINT_COLOR FOG_LINEAR _ALPHA_TEST
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR _ALPHA_BLEND
+            _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND _DECAL_CHANNEL_G
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_FOG ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND _DECAL_CHANNEL_B
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_GLOW ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE FOG_LINEAR
+            _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
+        - keywords: ENABLE_DECAL ENABLE_FOG ENABLE_RIM ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_RIM_LIGHT ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND
+          passType: 4
+        - keywords: ENABLE_FOG ENABLE_RIM ENABLE_RIM_LIGHT ENABLE_TINT_COLOR ENABLE_UV_NOISE
+            FOG_LINEAR _ALPHA_BLEND _DECAL_CHANNEL_R
+          passType: 4
