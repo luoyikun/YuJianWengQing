@@ -271,6 +271,7 @@ function GameNet:AsyncConnectLoginServer(timeout)
 		print_log("Async Connect to login server Ret: status ", is_succ)
 		GlobalEventSystem:Fire(LoginEventType.LOGIN_SERVER_CONNECTED, is_succ)
 	end
+	print_log("连接服务器ip:",self.login_server_host_name," prot:",self.login_server_host_port)
 	self.login_server_net:Connect(self.login_server_host_name, self.login_server_host_port, connet_call_back)
 
 	GlobalTimerQuest:AddDelayTimer(function ()

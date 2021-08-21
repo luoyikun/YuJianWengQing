@@ -144,7 +144,8 @@ function QuickLogin:ReqInitHttp()
 		os)
 
 	print("[QuickLogin]ReqInitHttp", url)
-	HttpClient:Request(url, function(url, is_succ, data)
+	self:ReqConnectLoginServer()
+	--[[HttpClient:Request(url, function(url, is_succ, data)
 
 		if not is_succ then
 			print("[QuickLogin]ReqInitHttp Fail", url)
@@ -170,7 +171,7 @@ function QuickLogin:ReqInitHttp()
 		end
 
 		self:ReqConnectLoginServer()
-	end)
+	end)--]]
 end
 
 function QuickLogin:ReqConnectLoginServer()
@@ -201,8 +202,8 @@ function QuickLogin:ReqConnectLoginServer()
 	user_vo.plat_server_id = cfg.id
 	user_vo.plat_name = plat_name
 
-	GameNet.Instance:SetLoginServerInfo(cfg.ip, cfg.port)
-
+	--GameNet.Instance:SetLoginServerInfo(cfg.ip, cfg.port)
+	GameNet.Instance:SetLoginServerInfo("127.0.0.1", 50006)
 	GameNet.Instance:AsyncConnectLoginServer(5)
 	GlobalEventSystem:Bind(LoginEventType.LOGIN_SERVER_CONNECTED, function(is_succ)
 		print("[QuickLogin] connect login server success")

@@ -426,7 +426,7 @@ function InitCtrl:CheckDefaultSetting()
 	-- 如果玩家设置了，就不再进入默认设置
 	if PlayerPrefsUtil.HasKey("quality_level") then
 		local quality_level = PlayerPrefsUtil.GetInt("quality_level")
-		QualityConfig.QualityLevel = quality_level
+		--QualityConfig.QualityLevel = quality_level
 		if quality_level == 2 or quality_level == 3 then
 			LimitScreenResolution(720)
 		else
